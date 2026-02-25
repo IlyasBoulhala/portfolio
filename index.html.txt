@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Ilyas Boulhala</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            background: linear-gradient(90deg, #6366f1, #22d3ee);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Ilyas Boulhala</h1>
+<p>Étudiant en Technique informatique – Programmation</p>
+<p>À la recherche d’un stage en développement logiciel</p>
+
+<a class="btn" href="CV_Ilyas_Boulhala.pdf" download>Télécharger mon CV</a>
+
+<div class="card">
+    <h2>PharmaStock</h2>
+    <p>Application Java / Spring Boot</p>
+    <p>Implémentation DELETE avec base de données MySQL</p>
+</div>
+
+<div class="card">
+    <h2>CryptoTrade</h2>
+    <p>Application PHP / MySQL</p>
+    <p>Système d’authentification avec sessions</p>
+</div>
+
+<div class="card">
+    <h2>TeamFlow</h2>
+    <p>React / Spring Boot</p>
+    <p>Architecture REST + documentation ADR</p>
+</div>
+
+<div class="card">
+    <h2>Gestionnaire de tâches</h2>
+    <p>Python CLI</p>
+    <p>Ajout / Suppression / Marquage terminé</p>
+</div>
+
+</body>
+</html>
